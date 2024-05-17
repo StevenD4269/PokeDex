@@ -129,9 +129,15 @@ function App() {
         </label>
       </div>
       {/* create a div and use.map and give me back name, number, type, weakness */}
-      <div className="pokemon-list"> 
+      <div className="pokemon-list">
         {filterPokemon.map((pokemon) => (
-          <div key={pokemon.id} className="pokemon-card">
+          <div
+            key={pokemon.id}
+            className={`pokemon-card ${
+              pokemon.type.includes("Psychic") ? "psychic-pokemon" : ""
+            }`}
+          >
+            <img src={pokemon.img} alt={pokemon.name} />
             <h3>{pokemon.name}</h3>
             <p>Number: {pokemon.num}</p>
             <p>Type: {pokemon.type.join(", ")}</p>

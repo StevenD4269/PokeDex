@@ -31,6 +31,14 @@ h1 {
   font-weight: bolder;
 }
 
+
+
+.pokemon-card.psychic-pokemon {
+  border: 2px solid purple; /* Change border color for Psychic-type Pokémon */
+}
+
+
+
 /* Search input styles */
 input[type="text"] {
   width: 100%;
