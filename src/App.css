@@ -13,6 +13,18 @@ body {
   padding: 20px;
 }
 
+.filterType {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.filterWeakness {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
 /* Header styles */
 h1 {
   color: #ff3e00; /* Bright orange */
@@ -35,6 +47,7 @@ h1 {
 .pokemon-card.psychic-pokemon {
   border: 2px solid purple; /* Change border color for Psychic-type Pokémon */
 }
+
 
 input[type="text"] {
   width: 100%;

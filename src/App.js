@@ -78,7 +78,7 @@ function App() {
         onChange={handleSearchChange} //use my event handler
       />
       {/* use divs to contain my filters, use input to make input boxes with handletypechange function */}
-      <div>
+      <div className="filterType">
         <h2>Filter by Type:</h2>
         <label>
           <input type="checkbox" value="Grass" onChange={handleTypeChange} />
@@ -97,7 +97,7 @@ function App() {
           Psychic - the best type
         </label>
       </div>
-      <div>
+      <div className="filterWeakness">
         <h2>Filter by Weakness:</h2>
         <label>
           <input
