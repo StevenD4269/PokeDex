@@ -1,6 +1,6 @@
 /* Body styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
@@ -20,26 +20,22 @@ h1 {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
+/* target the best type */
 .psychicType {
   color: purple;
   font-weight: bolder;
 }
-
+/* target them more */
 .psychicType2 {
   color: purple;
   font-weight: bolder;
 }
 
-
-
+/* target them a 3rd time */
 .pokemon-card.psychic-pokemon {
   border: 2px solid purple; /* Change border color for Psychic-type Pokémon */
 }
 
-
-
-/* Search input styles */
 input[type="text"] {
   width: 100%;
   padding: 10px;
