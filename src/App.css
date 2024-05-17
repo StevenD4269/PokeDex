@@ -1,38 +1,77 @@
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
 .App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  color: #ff3e00; /* Bright orange */
   text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.psychicType {
+  color: purple;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.psychicType2 {
+  color: purple;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Search input styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: 2px solid #ff3e00; /* Bright orange */
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Filter section styles */
+h2 {
+  color: #ff3e00; /* Bright orange */
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Checkbox label styles */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Pokemon card styles */
+.pokemon-card {
+  background-color: #fff;
+  border: 2px solid #ff3e00; /* Bright orange */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Pokemon name styles */
+.pokemon-card h3 {
+  color: #ff3e00; /* Bright orange */
+  margin-top: 0;
+}
+
+/* Pokemon details styles */
+.pokemon-card p {
+  margin: 5px 0;
+  font-size: 16px;
 }
